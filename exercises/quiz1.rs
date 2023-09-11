@@ -13,14 +13,14 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+
 
 // Put your function here!
  fn calculate_price_of_apples(num_of_apples: u32) -> u32 {
     // if buys 35 apples costs 70,
     if num_of_apples <= 40 {
         num_of_apples * 2
-    } else if num_of_apples > 40 {
+    } else  {
         num_of_apples
     }
  }
